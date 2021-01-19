@@ -1,12 +1,23 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <v-btn @click="$router.push({name: 'Home'})">Home</v-btn>
+      <v-btn @click="$router.push({name: 'About'})">about</v-btn>
+      <v-btn @click="$router.push({ name: 'poyo'})">poyo</v-btn>
+      <v-btn @click="$router.push({ name: 'mon'})">MON</v-btn>
+      <v-btn @click="$router.push({ name: 'taka'})">taka</v-btn>
     </div>
     <router-view/>
   </div>
 </template>
+
+
+<script>
+export default {
+  methods: {
+  }
+}
+</script>
 
 <style>
 #app {
