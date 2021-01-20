@@ -4,9 +4,6 @@
         <p>ここからしたがhiro</p>
         <hr>
         <hiro title="one ok" aaa>
-          <template v-slot:head>
-            <p>書き込みました</p>
-          </template>
         </hiro>
       </div>
 </template>
